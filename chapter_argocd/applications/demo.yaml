@@ -32,6 +32,8 @@ spec:
     jsonPointers:
     - /data
   syncPolicy:
+    automated:
+      selfHeal: true
     syncOptions:
     - CreateNamespace=true
     - RespectIgnoreDifferences=true
